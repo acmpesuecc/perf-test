@@ -16,7 +16,7 @@ Use CMake to build this project. This may seem like an over-engineered solution,
 ### Linux
   On Linux systems, after ensuring ```cmake``` is insatalled, run:
   ```bash
-  $ git clone https://github.com/acmpesuecc/perf-test
+  $ git clone https://github.com/NavinShrinivas/perf-test
   $ cd perf-test
   $ chmod +x install.sh
   $ install.sh
@@ -32,5 +32,5 @@ Use CMake to build this project. This may seem like an over-engineered solution,
 
 *  Multithreading was one of the most major issues, deciding where the controls flow, etc. We figured it out by asking other developers in StackOverflow
    and analysing other multithreaded application.
-*  We encountered the race conditions problem, due to multithreading, multiple IOs on a single memory and rapid `while` loops. Our workaround was introducing      consistency by using various buffers and adding them up in the end.
+*  We encountered the race conditions problem, due to multithreading, multiple IOs on a single memory and rapid `while` loops. Our workaround was introducing eventual consistency by using various buffers and adding them up in the end.
 
