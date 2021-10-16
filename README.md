@@ -16,7 +16,7 @@ Use CMake to build this project. This may seem like an over-engineered solution,
 ### Linux
   On Linux systems, after ensuring ```cmake``` is insatalled, run:
   ```bash
-  $ git clone https://github.com/NavinShrinivas/perf-test
+  $ git clone https://github.com/acmpesuecc/perf-test
   $ cd perf-test
   $ chmod +x install.sh
   $ install.sh
